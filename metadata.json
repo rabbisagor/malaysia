@@ -1,0 +1,6 @@
+{
+  "name": "Malaysia Expat & Worker Status Guide",
+  "description": "Comprehensive portal and status check guide for foreign workers in Malaysia: Visa check, FOMEMA medical, Work Permit (PLKS), BD Embassy passport tracking, OT calculator, and emergency directory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

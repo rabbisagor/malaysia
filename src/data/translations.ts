@@ -1,0 +1,93 @@
+import { Language } from '../types';
+
+export const translations = {
+  appName: {
+    bn: 'মালয়েশিয়া প্রবাসী হেল্প ও স্ট্যাটাস গাইড',
+    en: 'Malaysia Worker & Expat Status Guide',
+    ms: 'Panduan Semakan Status Pekerja Malaysia',
+  },
+  appTagline: {
+    bn: 'ভিসা, পারমিট, ফোমেমা মেডিকেল, পাসপোর্ট ও দূতাবাস সেবা সহজ ও পরিষ্কার নির্দেশিকা',
+    en: 'Simplified official status checking, guides, and tools for foreign workers in Malaysia',
+    ms: 'Panduan rasmi semakan visa, permit kerja, FOMEMA & pasport secara pantas dan telus',
+  },
+  disclaimerTitle: {
+    bn: 'জরুরি তথ্য ও স্বত্বাধিকার নোটিশ',
+    en: 'Official Disclaimer & Notice',
+    ms: 'Penafian Rasmi & Notis',
+  },
+  disclaimerText: {
+    bn: 'এই অ্যাপটি কোনো সরকারি সংস্থা বা মালয়েশিয়া ইমিগ্রেশন ডিপার্টমেন্টের সাথে সংশ্লিষ্ট নয়। এটি প্রবাসী কর্মীদের সহায়তার জন্য সরকারি ই-সার্ভিস পোর্টালসমূহের সরাসরি লিঙ্ক ও সহজ নির্দেশিকা প্রদানকারী একটি স্বাধীন সহায়িকা প্ল্যাটফর্ম।',
+    en: 'This app is not affiliated with or endorsed by the Government of Malaysia or the Immigration Department. It is an independent utility portal that aggregates official government links and guides to help migrant workers navigate procedures safely.',
+    ms: 'Aplikasi ini bukan milik atau dikendalikan oleh Jabatan Imigresen Malaysia atau mana-mana agensi kerajaan. Ia merupakan panduan bebas yang menyediakan pautan terus ke portal rasmi kerajaan.',
+  },
+  nav: {
+    services: { bn: 'সার্ভিসসমূহ', en: 'All Services', ms: 'Semua Perkhidmatan' },
+    calculator: { bn: 'বেতন ও রেমিট্যান্স', en: 'Salary & Remittance', ms: 'Gaji & Kiriman' },
+    myTracker: { bn: 'আমার ডকুমেন্টস', en: 'My Vault', ms: 'Dokumen Saya' },
+    guides: { bn: 'নির্দেশিকাসমূহ', en: 'Guides & Rules', ms: 'Panduan' },
+    emergency: { bn: 'জরুরি হেল্পলাইন', en: 'Emergency Help', ms: 'Talian Kecemasan' },
+  },
+  categories: {
+    all: { bn: 'সকল সার্ভিস', en: 'All Portals', ms: 'Semua' },
+    visa: { bn: 'ভিসা ও ই-ভিসা', en: 'Visa & eVisa', ms: 'Visa & eVisa' },
+    medical: { bn: 'ফোমেমা মেডিকেল', en: 'FOMEMA Medical', ms: 'Perubatan FOMEMA' },
+    permit: { bn: 'ওয়ার্ক পারমিট / পিএলকেএস', en: 'Work Permit (PLKS)', ms: 'Permit Kerja (PLKS)' },
+    passport: { bn: 'পাসপোর্ট ট্র্যাকিং', en: 'Passport Tracker', ms: 'Semakan Pasport' },
+    legal: { bn: 'আইনগত ও আরটিকে ২.০', en: 'Legal & RTK 2.0', ms: 'Undang-undang & RTK' },
+  },
+  searchPlaceholder: {
+    bn: 'সার্ভিস খুঁজুন (যেমন: ফমেমা, ভিসা, পাসপোর্ট, সিআইডিবি)...',
+    en: 'Search services (e.g. FOMEMA, eVisa, passport, permit)...',
+    ms: 'Cari perkhidmatan (cth. FOMEMA, visa, pasport, permit)...',
+  },
+  serviceCard: {
+    officialPortal: { bn: 'অফিসিয়াল পোর্টালে যান', en: 'Open Official Portal', ms: 'Buka Portal Rasmi' },
+    viewGuide: { bn: 'চেক করার নিয়ম দেখুন', en: 'Step-by-Step Guide', ms: 'Panduan Langkah' },
+    requiredInfo: { bn: 'যা প্রয়োজন হবে:', en: 'Required Information:', ms: 'Maklumat Diperlukan:' },
+    directLinkNotice: { bn: 'সরাসরি সরকারি সার্ভারে নিয়ে যাবে', en: 'Direct official government portal', ms: 'Pautan terus portal kerajaan rasmi' },
+  },
+  calculator: {
+    title: { bn: 'মালয়েশিয়া প্রবাসী হিসাব ও কনভার্টার', en: 'Worker Remittance & Salary Calculator', ms: 'Kalkulator Gaji & Kiriman Wang' },
+    subtitle: { bn: 'রিঙ্গিত থেকে টাকার সঠিক রেট এবং কর্মসংস্থান আইন অনুযায়ী ওটি (OT) হিসাব করুন', en: 'Live MYR conversion and statutory Overtime (OT) pay estimation under Malaysia Employment Act', ms: 'Kiraan kadar tukaran mata wang dan anggaran bayaran kerja lebih masa (OT)' },
+    currencyTab: { bn: 'মুদ্রা রূপান্তর (টাকার রেট)', en: 'Remittance Converter', ms: 'Penukar Mata Wang' },
+    otTab: { bn: 'ওভারটাইম ও বেতন হিসাব', en: 'OT & Salary Calculator', ms: 'Kalkulator OT & Gaji' },
+    amountInMyr: { bn: 'পরিমাণ (মালয়েশিয়ান রিঙ্গিত - RM)', en: 'Amount (Malaysian Ringgit - RM)', ms: 'Jumlah (Ringgit Malaysia - RM)' },
+    targetCurrency: { bn: 'গন্তব্য মুদ্রা', en: 'Target Currency', ms: 'Mata Wang Destinasi' },
+    estimatedReceived: { bn: 'আনুমানিক পাবেন', en: 'Estimated You Receive', ms: 'Anggaran Diterima' },
+    quickAmounts: { bn: 'দ্রুত নির্বাচন:', en: 'Quick Presets:', ms: 'Pilihan Pantas:' },
+    providerRates: { bn: 'জনপ্রিয় এক্সচেঞ্জ রেট তুলনা', en: 'Popular Money Transfer Rates', ms: 'Kadar Pembekal Kiriman Wang' },
+    basicSalary: { bn: 'মাসিক মূল বেতন (Basic Pay RM)', en: 'Basic Monthly Salary (RM)', ms: 'Gaji Pokok Bulanan (RM)' },
+    workDaysPerMonth: { bn: 'মাসে কাজের দিন (সাধারণত ২৬ দিন)', en: 'Working Days per Month (Usually 26)', ms: 'Hari Bekerja Sebulan (Biasanya 26)' },
+    normalOtHours: { bn: 'সাধারণ ওটি ঘণ্টা (1.5 গুণ)', en: 'Normal OT Hours (1.5x Rate)', ms: 'Jam OT Biasa (Kadar 1.5x)' },
+    restDayOtHours: { bn: 'ছুটির দিনের ওটি (2.0 গুণ)', en: 'Rest Day OT Hours (2.0x Rate)', ms: 'Jam OT Hari Rehat (Kadar 2.0x)' },
+    holidayOtHours: { bn: 'পাবলিক হলিডে ওটি (3.0 গুণ)', en: 'Public Holiday OT Hours (3.0x Rate)', ms: 'Jam OT Hari Kelepasan Am (Kadar 3.0x)' },
+    calculateSalary: { bn: 'বেতন ও ওভারটাইম মোট হিসাব', en: 'Total Gross & Net Estimation', ms: 'Jumlah Anggaran Gaji & OT' },
+    grossSalary: { bn: 'মোট আয় (Gross Pay)', en: 'Total Gross Pay', ms: 'Jumlah Gaji Kasar' },
+    socsoDeduction: { bn: 'SOCSO / সামাজিক সুরক্ষা কাটছাঁট', en: 'SOCSO / Foreign Worker Deduction', ms: 'Potongan PERKESO' },
+    estimatedNet: { bn: 'হাতে পাওয়ার আনুমানিক বেতন (Net)', en: 'Estimated Net Take-Home Pay', ms: 'Anggaran Gaji Bersih' },
+  },
+  vault: {
+    title: { bn: 'আমার ডকুমেন্টস ও মেয়াদ ট্র্যাকার', en: 'My Personal Document Vault', ms: 'Peti Simpanan Dokumen Saya' },
+    subtitle: { bn: 'পাসপোর্ট ও পারমিটের মেয়াদ ট্র্যাক রাখুন। কোনো সার্ভারে তথ্য যায় না, কেবল আপনার মোবাইলেই সুরক্ষিত থাকে।', en: 'Keep track of passport & permit validity. Stored securely and privately in your browser storage only.', ms: 'Pantau tarikh luput pasport & permit anda. Disimpan secara peribadi di peranti anda sahaja.' },
+    addDoc: { bn: 'নতুন ডকুমেন্ট যোগ করুন', en: 'Add Document', ms: 'Tambah Dokumen' },
+    noDocs: { bn: 'এখনও কোনো ডকুমেন্ট যোগ করা হয়নি। দ্রুত চেক ও নোটিফিকেশনের জন্য আপনার পাসপোর্ট বা পারমিটের তথ্য যোগ করে রাখুন।', en: 'No documents saved yet. Add your passport or permit details to easily track expiry dates.', ms: 'Tiada dokumen disimpan lagi. Tambah maklumat pasport atau permit anda.' },
+    daysLeft: { bn: 'দিন বাকি আছে', en: 'days remaining', ms: 'hari lagi' },
+    expired: { bn: 'মেয়াদ শেষ হয়ে গেছে!', en: 'Expired!', ms: 'Telah tamat tempoh!' },
+    urgentRenewal: { bn: 'জরুরি রিনিউ প্রয়োজন!', en: 'Urgent renewal needed!', ms: 'Pembaharuan segera diperlukan!' },
+    copyNumber: { bn: 'নম্বর কপি করুন', en: 'Copy Number', ms: 'Salin Nombor' },
+    copied: { bn: 'কপি হয়েছে!', en: 'Copied!', ms: 'Disalin!' },
+  },
+  emergency: {
+    title: { bn: 'মালয়েশিয়া জরুরি ও দূতাবাস হেল্পলাইন', en: 'Malaysia Emergency & Embassy Directory', ms: 'Direktori Kecemasan & Kedutaan Malaysia' },
+    subtitle: { bn: 'বিপদ বা যেকোনো আইনি জটিলতায় দ্রুত যোগাযোগের জন্য নম্বরসমূহ। সরাসরি কল করার জন্য চাপুন।', en: 'One-touch emergency and consular assistance numbers for foreign workers in Malaysia.', ms: 'Nombor talian kecemasan dan kedutaan untuk pekerja asing di Malaysia.' },
+    callNow: { bn: 'কল করুন', en: 'Call Now', ms: 'Hubungi Sekarang' },
+  },
+  modal: {
+    close: { bn: 'বন্ধ করুন', en: 'Close', ms: 'Tutup' },
+    howToCheck: { bn: 'চেক করার পদ্ধতি (ধাপে ধাপে):', en: 'How to Check (Step-by-Step):', ms: 'Cara Semak (Langkah demi Langkah):' },
+    importantNotice: { bn: 'সতর্কতা ও জরুরি টিপস:', en: 'Important Notice & Advice:', ms: 'Notis Penting & Nasihat:' },
+    visitOfficialSite: { bn: 'অফিসিয়াল সরকারি পোর্টালে যান', en: 'Go to Official Government Portal', ms: 'Layari Portal Rasmi Kerajaan' },
+    simulatorTitle: { bn: 'তথ্য প্রস্তুত রাখুন (কপি করতে পারেন)', en: 'Prepare Your Information', ms: 'Sediakan Maklumat Anda' },
+  }
+};
